@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QtMainWindowUi</class>
+ <widget class="QMainWindow" name="QtMainWindowUi">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>850</width>
+    <height>630</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>MamaTkon</string>
+  </property>
+  <property name="layoutDirection">
+   <enum>Qt::LeftToRight</enum>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0" colspan="2">
+     <widget class="QtActionButtonsUi" name="actionButtonsUi">
+      <property name="title">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0" colspan="2">
+     <widget class="QtFinderUi" name="finderUi" native="true">
+      <property name="styleSheet">
+       <string>Finder {
+	border-color: rgb(184, 184, 184);
+	border-width:1;
+	border-style:solid;
+}</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QTabWidget" name="recipeRelated">
+      <property name="layoutDirection">
+       <enum>Qt::RightToLeft</enum>
+      </property>
+      <property name="tabPosition">
+       <enum>QTabWidget::West</enum>
+      </property>
+      <property name="tabShape">
+       <enum>QTabWidget::Rounded</enum>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <property name="elideMode">
+       <enum>Qt::ElideNone</enum>
+      </property>
+      <widget class="QWidget" name="addRecipe">
+       <attribute name="title">
+        <string>Edit Recipe</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="0" column="0">
+         <widget class="QtRecipeEditUi" name="recipeEdit" native="true"/>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab">
+       <attribute name="title">
+        <string>Grab</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_3">
+        <item row="0" column="0">
+         <widget class="QtRecipeGrabberUi" name="recipeGrabber" native="true"/>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="title">
+        <string>Nutrition</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_5">
+        <item row="0" column="0">
+         <widget class="QtNutritionalDataUi" name="nutritionalDataUi" native="true"/>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QtRecipeListUi" name="recipeListUi" native="true">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>200</width>
+        <height>0</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>850</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="fileItemExit"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="helpItemAbout"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="fileItemExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="helpItemAbout">
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QtRecipeListUi</class>
+   <extends>QWidget</extends>
+   <header location="global">qtrecipelistui.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>QtActionButtonsUi</class>
+   <extends>QGroupBox</extends>
+   <header location="global">qtactionbuttonsui.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>QtRecipeGrabberUi</class>
+   <extends>QWidget</extends>
+   <header location="global">qtrecipegrabberui.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>QtRecipeEditUi</class>
+   <extends>QWidget</extends>
+   <header location="global">qtrecipeeditui.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>QtFinderUi</class>
+   <extends>QWidget</extends>
+   <header location="global">qtfinderui.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>QtNutritionalDataUi</class>
+   <extends>QWidget</extends>
+   <header location="global">qtnutritionaldataui.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

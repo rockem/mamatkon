@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>images/mamatkon2.png</file>
+        <file>images/brown-recipe.jpg</file>
+        <file alias="DeleteIngredient">images/delete_16x16.gif</file>
+    </qresource>
+</RCC>

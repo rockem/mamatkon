@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/images" >
+        <file alias="Go" >images/Go.png</file>
+        <file alias="NewRecipe" >images/new_recipe.png</file>
+        <file alias="Paste" >images/paste.png</file>
+    </qresource>
+    <qresource prefix="/icons" />
+</RCC>

@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/icons" >
+        <file>icons/Publish.ico</file>
+        <file>icons/Go.png</file>
+    </qresource>
+</RCC>
