@@ -1,4 +1,4 @@
-#include "ingredientsparser.h"
+﻿#include "ingredientsparser.h"
 #include <QRegExp>
 #include <algorithm>
 
@@ -38,7 +38,14 @@ bool stringLengthComprasion(const QString& str1, const QString& str2) {
 }
 
 QStringList IngredientsParser::splitByAlternateIngridients(const QString& row) {
-	QRegExp exp(QString::fromStdWString(L"(\\Wאו\\s|\\s\\/\\s|^/\\s)"));
+	if(row.length() > 5) {
+		QString s1 = row[0];
+		QString s2 = row[1];
+		QString s3 = row[2];
+		QString s4 = row[3];
+		QString s5 = row[4];
+	}
+	QRegExp exp(QString::fromStdWString(L"(\\W*או\\s|\\s\\/\\s|^/\\s)"));
 	int pos = 0;
 	int start = 0;
 	QStringList options;
@@ -100,7 +107,7 @@ AmountExtractor::findMatchedRange(QStringList& words, int start, int& end) {
 	findAmountInNumbers(words, start, end);
 	if(start >= end) {
 		findAmountInWords(words, start, end);
-		if(words.size() > end + 1 && words[end] == QString::fromStdWString(L"òã")) {
+		if(words.size() > end + 1 && words[end] == QString::fromStdWString(L"עד")) {
 			words[end++] = "-";
 			findAmountInWords(words, end, end);
 		}
@@ -131,7 +138,7 @@ void IngredientsParser::
 AmountExtractor::findAmountInWords(QStringList& words, int start, int& end) {
 	compileNextNumber(words, start, end);
 	if(start < end) {
-		if(words.size() > end && QString(words[end][0]) == QString::fromStdWString(L"å")) {
+		if(words.size() > end && QString(words[end][0]) == QString::fromStdWString(L"ו")) {
 			words[end].replace(0, 1, "");
 			compileNextNumber(words, end, end);
 		}

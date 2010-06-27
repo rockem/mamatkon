@@ -3,7 +3,7 @@
 	ProjectType="Visual C++"
 	Version="9.00"
 	Name="tests"
-	ProjectGUID="{B0D87710-EB8F-3EC9-9059-63D9FBBB6544}"
+	ProjectGUID="{50A4DFDA-9C83-3316-B61B-BFD82F5E1414}"
 	RootNamespace="tests"
 	Keyword="Qt4VSv1.0"
 	TargetFrameworkVersion="0"
@@ -73,7 +73,7 @@
 			<Tool
 				Name="VCLinkerTool"
 				IgnoreImportLibrary="true"
-				AdditionalDependencies="D:/Source/mamatkon/trunk/lib/mamatkon/MaCored.lib ext/vslib/gmock.lib QtCored4.lib QtGuid4.lib QtNetworkd4.lib QtSqld4.lib"
+				AdditionalDependencies="D:/Source/mamatkonGit/lib/mamatkon/MaCored.lib ext/vslib/gmock.lib QtCored4.lib QtGuid4.lib QtNetworkd4.lib QtSqld4.lib"
 				OutputFile="..\bin\tests.exe"
 				SuppressStartupBanner="true"
 				AdditionalLibraryDirectories="$(QTDIR)\lib"
@@ -102,7 +102,6 @@
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
-				CommandLine="$(TargetPath)"
 			/>
 		</Configuration>
 		<Configuration
@@ -162,7 +161,7 @@
 			<Tool
 				Name="VCLinkerTool"
 				IgnoreImportLibrary="true"
-				AdditionalDependencies="D:/Source/mamatkon/trunk/lib/mamatkon/MaCored.lib ext/vslib/gmock.lib QtCore4.lib QtGui4.lib QtNetwork4.lib QtSql4.lib"
+				AdditionalDependencies="D:/Source/mamatkonGit/lib/mamatkon/MaCored.lib ext/vslib/gmock.lib QtCore4.lib QtGui4.lib QtNetwork4.lib QtSql4.lib"
 				OutputFile="..\bin\tests.exe"
 				LinkIncremental="1"
 				SuppressStartupBanner="true"

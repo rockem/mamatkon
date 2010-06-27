@@ -3,7 +3,7 @@
 	ProjectType="Visual C++"
 	Version="9.00"
 	Name="mamatkon"
-	ProjectGUID="{2946F119-AE6E-35D8-BC1B-54D7449F6037}"
+	ProjectGUID="{D7E850AD-7763-3750-99CD-AB3743FCF3FD}"
 	RootNamespace="mamatkon"
 	Keyword="Qt4VSv1.0"
 	TargetFrameworkVersion="0"
@@ -73,7 +73,7 @@
 			<Tool
 				Name="VCLinkerTool"
 				IgnoreImportLibrary="true"
-				AdditionalDependencies="D:/Source/mamatkon/trunk/lib/mamatkon/MaCored.lib QtCored4.lib QtGuid4.lib QtNetworkd4.lib QtSqld4.lib"
+				AdditionalDependencies="D:/Source/mamatkonGit/lib/mamatkon/MaCored.lib QtCored4.lib QtGuid4.lib QtNetworkd4.lib QtSqld4.lib"
 				OutputFile="..\..\bin\mamatkon.exe"
 				SuppressStartupBanner="true"
 				AdditionalLibraryDirectories="$(QTDIR)\lib"
@@ -161,7 +161,7 @@
 			<Tool
 				Name="VCLinkerTool"
 				IgnoreImportLibrary="true"
-				AdditionalDependencies="D:/Source/mamatkon/trunk/lib/mamatkon/MaCored.lib QtCore4.lib QtGui4.lib QtNetwork4.lib QtSql4.lib"
+				AdditionalDependencies="D:/Source/mamatkonGit/lib/mamatkon/MaCored.lib QtCore4.lib QtGui4.lib QtNetwork4.lib QtSql4.lib"
 				OutputFile="..\..\bin\mamatkon.exe"
 				LinkIncremental="1"
 				SuppressStartupBanner="true"

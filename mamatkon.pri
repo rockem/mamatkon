@@ -66,8 +66,8 @@ DEPENDPATH += \
 #LIBS += $$IDE_LIBRARY_PATH/MaCore.lib
 #    LIBS += $$IDE_LIBRARY_PATH/MaCored.lib
 
-CONFIG(release, debug|release):LIBS += $$IDE_LIBRARY_PATH/libMaCore.a
-CONFIG(debug, debug|release):LIBS += $$IDE_LIBRARY_PATH/libMaCored.a
+CONFIG(release, debug|release):LIBS += $$IDE_LIBRARY_PATH/MaCore.lib
+CONFIG(debug, debug|release):LIBS += $$IDE_LIBRARY_PATH/MaCored.lib
 
 QT += sql network
 

@@ -5,7 +5,7 @@ TARGET = tests
 DESTDIR = $$IDE_APP_PATH
 CONFIG += ordered
 
-POST_TARGETDEPS = $$IDE_LIBRARY_PATH/libMaCored.a
+POST_TARGETDEPS = $$IDE_LIBRARY_PATH/MaCored.lib
 
 INCLUDEPATH += . ext/include
 

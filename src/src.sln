@@ -1,7 +1,7 @@
 Microsoft Visual Studio Solution File, Format Version 10.00
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mamatkon", "D:/Source/mamatkon/trunk/src/app\mamatkon.vcproj", "{2946F119-AE6E-35D8-BC1B-54D7449F6037}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mamatkon", "D:/Source/mamatkonGit/src/app\mamatkon.vcproj", "{D7E850AD-7763-3750-99CD-AB3743FCF3FD}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MaCore", "D:/Source/mamatkon/trunk/src/libs/core\MaCore.vcproj", "{44B3B770-70B9-30A9-9B04-BE09E7DC9D73}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MaCore", "D:/Source/mamatkonGit/src/libs/core\MaCore.vcproj", "{F6C0B903-EBB1-35BC-8266-0222A72BCD32}"
 EndProject
 Global
 	GlobalSection(SolutionConfiguration) = preSolution
@@ -11,14 +11,14 @@ Global
 	GlobalSection(ProjectDependencies) = postSolution
 	EndGlobalSection
 	GlobalSection(ProjectConfiguration) = postSolution
-		{2946F119-AE6E-35D8-BC1B-54D7449F6037}.Debug|Win32.ActiveCfg = Debug|Win32
-		{2946F119-AE6E-35D8-BC1B-54D7449F6037}.Debug|Win32.Build.0 = Debug|Win32
-		{2946F119-AE6E-35D8-BC1B-54D7449F6037}.Release|Win32.ActiveCfg = Release|Win32
-		{2946F119-AE6E-35D8-BC1B-54D7449F6037}.Release|Win32.Build.0 = Release|Win32
-		{44B3B770-70B9-30A9-9B04-BE09E7DC9D73}.Debug|Win32.ActiveCfg = Debug|Win32
-		{44B3B770-70B9-30A9-9B04-BE09E7DC9D73}.Debug|Win32.Build.0 = Debug|Win32
-		{44B3B770-70B9-30A9-9B04-BE09E7DC9D73}.Release|Win32.ActiveCfg = Release|Win32
-		{44B3B770-70B9-30A9-9B04-BE09E7DC9D73}.Release|Win32.Build.0 = Release|Win32
+		{D7E850AD-7763-3750-99CD-AB3743FCF3FD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D7E850AD-7763-3750-99CD-AB3743FCF3FD}.Debug|Win32.Build.0 = Debug|Win32
+		{D7E850AD-7763-3750-99CD-AB3743FCF3FD}.Release|Win32.ActiveCfg = Release|Win32
+		{D7E850AD-7763-3750-99CD-AB3743FCF3FD}.Release|Win32.Build.0 = Release|Win32
+		{F6C0B903-EBB1-35BC-8266-0222A72BCD32}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F6C0B903-EBB1-35BC-8266-0222A72BCD32}.Debug|Win32.Build.0 = Debug|Win32
+		{F6C0B903-EBB1-35BC-8266-0222A72BCD32}.Release|Win32.ActiveCfg = Release|Win32
+		{F6C0B903-EBB1-35BC-8266-0222A72BCD32}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 	EndGlobalSection

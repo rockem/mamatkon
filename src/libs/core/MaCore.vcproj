@@ -3,7 +3,7 @@
 	ProjectType="Visual C++"
 	Version="9.00"
 	Name="MaCore"
-	ProjectGUID="{44B3B770-70B9-30A9-9B04-BE09E7DC9D73}"
+	ProjectGUID="{F6C0B903-EBB1-35BC-8266-0222A72BCD32}"
 	RootNamespace="MaCore"
 	Keyword="Qt4VSv1.0"
 	TargetFrameworkVersion="0"
@@ -1444,32 +1444,6 @@
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="nuritionaldata\recipenutritionaldata.h"
-				>
-				<FileConfiguration
-					Name="Debug|Win32"
-					>
-					<Tool
-						Name="VCCustomBuildTool"
-						Description="Performing Custom Build Step"
-						CommandLine=""
-						AdditionalDependencies=""
-						Outputs=""
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="Release|Win32"
-					>
-					<Tool
-						Name="VCCustomBuildTool"
-						Description="Performing Custom Build Step"
-						CommandLine=""
-						AdditionalDependencies=""
-						Outputs=""
-					/>
-				</FileConfiguration>
-			</File>
-			<File
 				RelativePath="ui\uibase.h"
 				>
 				<FileConfiguration
@@ -2169,7 +2143,7 @@
 			ParseFiles="false"
 			>
 			<File
-				RelativePath="d:\Source\mamatkon\trunk\resource\mamtkon_he.ts"
+				RelativePath="d:\Source\mamatkonGit\resource\mamtkon_he.ts"
 				>
 				<FileConfiguration
 					Name="Debug|Win32"
