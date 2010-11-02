@@ -1,6 +1,6 @@
 #include "fraction.h"
 #include <QStringList>
-#include <QregExp>
+#include <QRegExp>
 
 using namespace Mamatkon;
 

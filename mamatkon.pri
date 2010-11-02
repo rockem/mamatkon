@@ -63,11 +63,13 @@ INCLUDEPATH += \
 DEPENDPATH += \
     $$IDE_SOURCE_TREE/src/libs
 
-#LIBS += $$IDE_LIBRARY_PATH/MaCore.lib
-#    LIBS += $$IDE_LIBRARY_PATH/MaCored.lib
-
-CONFIG(release, debug|release):LIBS += $$IDE_LIBRARY_PATH/MaCore.lib
-CONFIG(debug, debug|release):LIBS += $$IDE_LIBRARY_PATH/MaCored.lib
+win32 {
+	CONFIG(release, debug|release):LIBS += $$IDE_LIBRARY_PATH/MaCore.lib
+	CONFIG(debug, debug|release):LIBS += $$IDE_LIBRARY_PATH/MaCored.lib
+	}
+unix {
+	CONFIG(debug, debug|release):LIBS += $$IDE_LIBRARY_PATH/libMaCore.a
+	}
 
 QT += sql network
 

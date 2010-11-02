@@ -6,6 +6,8 @@
 #include <core/nuritionaldata/nutritionaldataui.h>
 #include <core/fraction.h>
 
+#include <iostream>
+
 using namespace Mamatkon;
 using ::std::vector;
 using ::std::map;
@@ -19,6 +21,7 @@ ControlBase(em) {
 
 void NutritionalDataControl::onRecipeSelectionChanged(::boost::shared_ptr<Event> e) {
 	map<NutritionalData::Types, float> nData;
+	std::cout<<"--1--"<<std::endl;
 	vector<Ingredient> ingredients = 
 		ingredientDao()->getIngredientsForRecipeId(static_pointer_cast<RecipeEvent>(e)->recipeId());
 
@@ -33,6 +36,6 @@ void NutritionalDataControl::onRecipeSelectionChanged(::boost::shared_ptr<Event>
 			}
 		}
 	}
-
+	std::cout<<"----->"<<std::endl;
 	dynamic_cast<INutritionalDataUi*>(getUi())->setData(nData);
 }

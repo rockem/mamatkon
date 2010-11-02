@@ -8,7 +8,6 @@
 #include <QRegExp>
 #include <QStringList>
 #include "numberscaler.h"
-
 #include <iostream>
 
 using namespace Mamatkon;
@@ -21,7 +20,7 @@ using ::boost::math::gcd;
 RecipeEditControl::RecipeEditControl( EventManager& em ) : 
 ControlBase(em), 
 	m_currentRecipeId(0), 
-	m_scaleRatio(0) {
+	m_scaleRatio("0") {
 	eventManager().addEventListener(Event::SelectedRecipeChanged, METHOD_MEMEBER(RecipeEditControl::onRecipeSelectionChanged));
 }
 

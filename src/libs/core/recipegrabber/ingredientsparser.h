@@ -63,9 +63,9 @@ class IngredientsParser {
 public:
 	::std::vector<Ingredient> parseIngridients(const QString& text);
 
-	void setProducts(std::vector<QString>& products) { m_products = products; }
-	void setMeasures(std::vector<QString>& measures) { m_measures = measures; }
-	void setAmounts(std::map<QString, QString>& amounts) { m_amounts =  amounts; }
+	void setProducts(const std::vector<QString>& products) { m_products = products; }
+	void setMeasures(const std::vector<QString>& measures) { m_measures = measures; }
+	void setAmounts(const std::map<QString, QString>& amounts) { m_amounts =  amounts; }
 };
 }
 #endif // INGRIDIENTSPARSER_H

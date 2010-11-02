@@ -1,6 +1,6 @@
 #ifndef INGREDIENTITEM_H
 #define INGREDIENTITEM_H
-#include <Qlist>
+#include <QList>
 #include <QVariant>
 
 namespace Mamatkon { 
