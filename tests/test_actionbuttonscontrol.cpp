@@ -41,11 +41,6 @@ public:
 	}
 };
 
-//TEST_F(ActionButtonsControlTest, testShouldRunPublishRecipeToCommand) {
-//	m_commander->registerCommand(Command::PublishSelectedRecipe, m_command);
-//    m_control.dispatchClick(4);
-//}
-
 TEST_F(ActionButtonsControlTest, testShouldCreateNewRecipeAndRaiseEvent) {
 	shared_ptr<MockRecipeDAO> dao = shared_ptr<MockRecipeDAO>(new MockRecipeDAO);
 	m_control->setRecipeDao(dao);

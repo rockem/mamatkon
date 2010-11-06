@@ -1,10 +1,10 @@
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tests", "tests\tests.vcproj", "{50A4DFDA-9C83-3316-B61B-BFD82F5E1414}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tests", "tests\tests.vcxproj", "{35836285-1DBD-344F-AA73-A6B9ABC97E55}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mamatkon", "src\app\mamatkon.vcproj", "{D7E850AD-7763-3750-99CD-AB3743FCF3FD}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mamatkon", "src\app\mamatkon.vcxproj", "{42EB1453-35A6-3030-AB4D-8F12DB9230A9}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MaCore", "src\libs\core\MaCore.vcproj", "{F6C0B903-EBB1-35BC-8266-0222A72BCD32}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MaCore", "src\libs\core\MaCore.vcxproj", "{4342C0BE-737A-3315-AB33-FCA252E035A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,23 +12,23 @@ Global
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{50A4DFDA-9C83-3316-B61B-BFD82F5E1414}.Debug|Win32.ActiveCfg = Debug|Win32
-		{50A4DFDA-9C83-3316-B61B-BFD82F5E1414}.Debug|Win32.Build.0 = Debug|Win32
-		{50A4DFDA-9C83-3316-B61B-BFD82F5E1414}.Release|Win32.ActiveCfg = Release|Win32
-		{50A4DFDA-9C83-3316-B61B-BFD82F5E1414}.Release|Win32.Build.0 = Release|Win32
-		{D7E850AD-7763-3750-99CD-AB3743FCF3FD}.Debug|Win32.ActiveCfg = Debug|Win32
-		{D7E850AD-7763-3750-99CD-AB3743FCF3FD}.Debug|Win32.Build.0 = Debug|Win32
-		{D7E850AD-7763-3750-99CD-AB3743FCF3FD}.Release|Win32.ActiveCfg = Release|Win32
-		{D7E850AD-7763-3750-99CD-AB3743FCF3FD}.Release|Win32.Build.0 = Release|Win32
-		{F6C0B903-EBB1-35BC-8266-0222A72BCD32}.Debug|Win32.ActiveCfg = Debug|Win32
-		{F6C0B903-EBB1-35BC-8266-0222A72BCD32}.Debug|Win32.Build.0 = Debug|Win32
-		{F6C0B903-EBB1-35BC-8266-0222A72BCD32}.Release|Win32.ActiveCfg = Release|Win32
-		{F6C0B903-EBB1-35BC-8266-0222A72BCD32}.Release|Win32.Build.0 = Release|Win32
+		{35836285-1DBD-344F-AA73-A6B9ABC97E55}.Debug|Win32.ActiveCfg = Debug|Win32
+		{35836285-1DBD-344F-AA73-A6B9ABC97E55}.Debug|Win32.Build.0 = Debug|Win32
+		{35836285-1DBD-344F-AA73-A6B9ABC97E55}.Release|Win32.ActiveCfg = Release|Win32
+		{35836285-1DBD-344F-AA73-A6B9ABC97E55}.Release|Win32.Build.0 = Release|Win32
+		{42EB1453-35A6-3030-AB4D-8F12DB9230A9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{42EB1453-35A6-3030-AB4D-8F12DB9230A9}.Debug|Win32.Build.0 = Debug|Win32
+		{42EB1453-35A6-3030-AB4D-8F12DB9230A9}.Release|Win32.ActiveCfg = Release|Win32
+		{42EB1453-35A6-3030-AB4D-8F12DB9230A9}.Release|Win32.Build.0 = Release|Win32
+		{4342C0BE-737A-3315-AB33-FCA252E035A2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4342C0BE-737A-3315-AB33-FCA252E035A2}.Debug|Win32.Build.0 = Debug|Win32
+		{4342C0BE-737A-3315-AB33-FCA252E035A2}.Release|Win32.ActiveCfg = Release|Win32
+		{4342C0BE-737A-3315-AB33-FCA252E035A2}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		QtVersion = qt-src-4.5.2
+		QtVersion = 4.7.0
 	EndGlobalSection
 EndGlobal

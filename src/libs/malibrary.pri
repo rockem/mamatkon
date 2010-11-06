@@ -10,7 +10,4 @@ TARGET = $$qtLibraryTarget($$TARGET)
 
 # contains(QT_  CONFIG, reduce_exports):CONFIG += hide_symbols
 
-unix:!macx {
-    target.path = /$$IDE_LIBRARY_BASENAME/qtcreator
-    INSTALLS += target
-}
+

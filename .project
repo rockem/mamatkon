@@ -28,7 +28,7 @@
 				</dictionary>
 				<dictionary>
 					<key>org.eclipse.cdt.make.core.build.command</key>
-					<value>make</value>
+					<value>nmake</value>
 				</dictionary>
 				<dictionary>
 					<key>org.eclipse.cdt.make.core.build.location</key>
@@ -64,7 +64,7 @@
 				</dictionary>
 				<dictionary>
 					<key>org.eclipse.cdt.make.core.environment</key>
-					<value>QMAKESPEC=win32-msvc2003|PATH=/usr/bin:${env_var:PATH}:${env_var:PATH}:C:\\Dev\\qt-src-4.5.2\\bin;${env_var|</value>
+					<value>QMAKESPEC=win32-msvc2010|PATH=D:\\Libs\\Qt\\4.7.0\\bin;${env_var:PATH};/usr/bin:${env_var:PATH}:${env_var:PATH}:C:\\Dev\\qt-src-4.5.2\\bin;${env_var|</value>
 				</dictionary>
 				<dictionary>
 					<key>org.eclipse.cdt.make.core.stopOnError</key>
